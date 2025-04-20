@@ -22,9 +22,12 @@ We were thinking of a text-based game that is very similar to Mario's adventure 
 
 **What are the features that the project provides?**
 
-.The user can start or quit the game. Only one life -- we're thinking of distributing health potions throughout the map.
-.The user will have to face various randomly generated monsters.
-.The user will roll the pyramid dice (4 sides) and that will have the options!
-.But as they kill monsters, 
-.The user will also be given various choices that alter the way the rest of the game continues (could have 1-3 alternate endings).
-.
+The idea is that the user plays a Paladin, a sworn protector of a small town called Amberwater. A corrupt sorcerer seeks to conquer the obsidian-rich hometown so that he can open a portal to the Nether. He does this so that he can return home; however, doing so will release unspeakable evil in Amberwater. So, our user must go through 7 levels, each with it's own quest,options, puzzles, and even monsters. Here's a rough idea of what we're thinking of implementing:
+
+.Each level has unique story elements tied to the sorcerer's plans. And each level also introduces puzzles, monsters, and environmental challenges (maybe hail affecting specfic abilities, etc)
+
+.Use of a 3-sided die: 
+      Combat(attack, defend, special ability)
+      Exploration(left, right, Secret)
+      Puzzle outcomes( correct, partial, fail)
+
