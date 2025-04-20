@@ -1,21 +1,34 @@
 # Text-based-RPG-game-draft-1
 
 
-**Name of the project**: 
+**Name of the project**: Paldadin's Quest: Obsidian Oath
 
 **Member names and GitHub handles**: 
   Nidu Rahubedde(https://github.com/Helloworld447)
   Russell Villanueva (https://github.com/RussellVillanueva)
+  Diego Delgado (
 
 **Wny is it interesting to us?**
-A majority of our members are quite passionate about video games. So, the chance to create our own game from scratch is quite excillarating. 
+A majority of our members have played video games as kids, especially the nostalgic rpg-styled games. So, the chance to create our own game from scratch is quite excillarating. 
 
 **What languages/tools/technologies do you plan to use?**
 We plan on using Python --we have already confirmed our selection with Professor Reem Ali. In addition to that, we're also deciding on which libraries to use. This may change as we proceed because upcoming functions will need various dependencies. But we will adequately document the process :)
 
 **What will be the input/output of your project?**
 
+Inputs:
+.Player commands: 1,2,3 to select dice outcomes. Keywords to tell system what to do (roll, stats, use potion, quit, etc)
 
+.Use random to trigger rolls
+
+Outputs:
+.Narration from dungeon-master styled text blocks 
+
+.Combat and event results
+
+.Player's stat display (health, inventory, etc)
+
+.Story progression updates!
 
 **What are the features that the project provides?**
 
