@@ -7,6 +7,7 @@
   Nidu Rahubedde(https://github.com/Helloworld447)
   Russell Villanueva (https://github.com/RussellVillanueva)
   Diego Delgado (
+  Elizabeth Gonzalez Ruiz (https://github.com/Elizabeth-rruiz)
 
 **Wny is it interesting to us?**
 A majority of our members have played video games as kids, especially the nostalgic rpg-styled games. So, the chance to create our own game from scratch is quite exhilarating. 
