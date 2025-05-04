@@ -49,3 +49,21 @@ The idea is that the user plays a Paladin, a sworn protector of a small town cal
 .Each decision that the user makes will lead to branching paths and even multiple endings.
 
 .Final battle with the sorcerer at level 7. Boss will have more health and the choices for the user will also be harder.
+
+**Description of Class diagram**
+
+Game: Manages the overall flow. Controls which level the player is currently in, story progression, and checks user input. Handles loading enemies and calling player/enemy actions.
+
+Level : Represents one stage in the game. Each level has its own unique story (tied to the sorcerer's plan), a puzzle to solve, enemies to fight and environmental effects. The start_level() method sets the stage. The trigger_event () method randomly introduces environmental effects of special challenges. 
+
+Puzzle : A helper class used within each level. Contains logic to present the puzzle and check the player’s response. Puzzle outcomes (correct, partial, fail) are determined using a three-sided die.
+
+Player: Represents the main character, the Paladin. Stores the player’s stats (health, strength) and inventory. Methods allow for attacking, exploring, using items, and displaying stats. Combat outcomes (attack, defend, special) and exploration choices (left, right, secret) are influenced by a three-sided die. Choices made by the player impact story direction.
+
+Item: Represents collectable or usable objects like potions, keys, scrolls, or loot. Some items may restore health or unlock doors, while others grant abilities or offer power at a cost. Stored in the player’s inventory.
+
+Enemy : Represents enemies that the player fights during each level. Each enemy has its own health and attack power. Methods include attacking the player and checking if it is still alive. 
+
+Final Boss : Inherited from the Enemy class. This is a special type of enemy with additional abilities like … (to be discussed) Only appears in level 7. 
+
+ThreeSidedDie: Simulates randomness for game decisions. Used to determine outcomes in combat (attack, defend, special), exploration (left, right, secret), and puzzle-solving (correct, partial, fail). 
